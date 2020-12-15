@@ -1,3 +1,4 @@
+console.log("This is working")
 window.onscroll = function() {scroll()}
 function scroll(){
     var s = window.pageYOffset;
