@@ -14,7 +14,7 @@
 
 
 body, html {
-    background: linear-gradient(to right, rgb(51, 119, 255), rgb(102, 153, 255), rgb(102, 179, 255)), rgb(153, 204, 255);
+    background: linear-gradient(to right, rgb(77, 77, 255), rgb(102, 153, 255), rgb(102, 179, 255)), rgb(153, 204, 255);
     margin: 0;
     overflow: auto;
     width: 100%;
