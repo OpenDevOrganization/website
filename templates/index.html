@@ -4,10 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PyDevs | Home</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PyDev</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-    <br>
-    <h1>Home page</h1>
+    <main id="home-container">
+        <header>
+            <nav class="navbar">
+                <div id="main-title">PyDev</div>
+                <ul>
+                    <li class="navbar-elements" id="Developers-page">Developers</li>
+                    <li class="navbar-elements" id="Projects-page">Projects</li>
+                    <li class="navbar-elements" id="Home-page">Home</li>
+                </ul>
+            </nav>
+        </header>
+        <section class="centered-text">
+            <p class="line anim-typewriter">Pydev: Merry Christmas.</p>
+        </section>
+    </main>
+
+    
 </body>
 </html>

@@ -54,13 +54,6 @@ def load_user(user_id):
 def home():
     return render_template('index.html')
 
-@app.route('/projects')
-def project():
-    return render_template('project.html')
-
-@app.route('/about-us')
-def about_us():
-    return render_template('about_us.html')
 
 
 # not sure bout this 
