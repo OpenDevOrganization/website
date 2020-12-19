@@ -142,3 +142,5 @@ cython_debug/
 .idea
 
 .history
+
+database.db
