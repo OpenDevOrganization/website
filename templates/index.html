@@ -7,21 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PyDev</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='icon.ico') }}">
 </head>
 <body>
     <main id="home-container">
         <header>
             <nav class="navbar">
-                <div id="main-title">PyDev</div>
+                <div id="main-title">OpenDevs</div>
                 <ul>
-                    <li class="navbar-elements" id="Developers-page">Signup</li>
-                    <li class="navbar-elements" id="Projects-page">Login</li>
-                    <li class="navbar-elements" id="Home-page">Projects</li>
+                    <a href="/signup"><li class="navbar-elements" id="Developers-page">Signup</li></a>
+                    <a href="/login"><li class="navbar-elements" id="Projects-page">Login</li></a>
+                    <a href="#"><li class="navbar-elements" id="Home-page">Projects</li></a>
                 </ul>
             </nav>
         </header>
         <section class="centered-text">
-            <p class="line anim-typewriter">Pydev: Merry Christmas.</p>
+            <p class="line anim-typewriter">OpenDev: Merry Christmas.</p>
         </section>
     </main>
 
