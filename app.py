@@ -56,12 +56,9 @@ def load_user(user_id):
 def home():
     return render_template('index.html')
 
-
-
-# not sure bout this 
-# @app.route('/manage/projects')
-# def manage_project():
-#     return render_template('index.html')
+@app.route('/h')
+def home():
+    return render_template('home.html')
 
 
 @app.route('/login', methods=['GET', 'POST'])
@@ -100,27 +97,6 @@ def signup():
 def logout():
     logout_user()
     return redirect(url_for('index'))
-
-
-# @app.route('/post/<int:post_id>')
-# @login_required
-# def post(post_id):
-#     """
-#     Post page route
-#     """
-#     pass
-
-
-# @app.route('/addpost', methods=['POST', 'GET'])
-# @login_required
-# def addpost():
-#     if request.method == "POST":
-#         #request from form
-#         pass
-#     else:
-#         #just render_template
-#         pass
-
 
 
 if __name__ == '__main__':
