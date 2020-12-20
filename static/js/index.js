@@ -1,10 +1,3 @@
-console.log("This is working")
-window.onscroll = function () { scroll() }
-function scroll() {
-    var s = window.pageYOffset;
-    document.getElementById("a").style.top = ((s / (window.outerHeight + 200)) * 100) + "%";
-}
-
 // projects
 
 const carouselSlide = document.querySelector(".projects-list");
@@ -18,21 +11,6 @@ const nextButton = document.querySelector('#next-button')
 const prevButton = document.querySelector('#prev-button')
 
 
-setInterval(() => {
-    if (counter === 0) {
-        counter++
-        return
-    } if (counter < carouselLength) {
-        carouselSlide.style.transition = 'transform 0.4s ease-in-out';
-        carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-        counter++
-    } else {
-        carouselSlide.style.transition = 'none';
-        counter = 0
-        carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-        counter++
-    }
-}, 8000);
 
 nextButton.addEventListener('click', () => {
     if (counter === 0) {

@@ -2,6 +2,7 @@
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
 }
+
 :root {
   --main-gradient: linear-gradient(
       to right,
@@ -11,6 +12,7 @@
     ),
     rgb(153, 204, 255);
 }
+
 body,
 html {
   background: var(--main-gradient);
@@ -23,8 +25,9 @@ html {
 /* HOME */
 
 #home {
-  height: 100vh;
+  height: 105vh;
 }
+
 
 .navbar {
   position: sticky;
@@ -35,6 +38,7 @@ html {
   height: 70px;
   width: 100%;
 }
+
 
 .navbar-elements {
   position: relative;
@@ -50,15 +54,18 @@ html {
   height: auto;
 }
 
+
 a {
   text-decoration: none;
   color: black;
 }
 
+
 #Developers-page {
   padding-right: 25px;
   margin-right: 3px;
 }
+
 
 .navbar-elements:hover {
   transition: 0.4s;
@@ -66,6 +73,7 @@ a {
   cursor: pointer;
   border-radius: 10px;
 }
+
 
 #main-title {
   display: inline;
@@ -76,6 +84,7 @@ a {
   text-shadow: 1px 1px rgb(128, 191, 255);
 }
 
+
 @keyframes typewriter {
   from {
     width: 0;
@@ -85,6 +94,7 @@ a {
   }
 }
 
+
 @keyframes blinkTextCursor {
   from {
     border-right-color: rgba(255, 255, 255, 0.75);
@@ -93,6 +103,7 @@ a {
     border-right-color: transparent;
   }
 }
+
 
 .line {
   font-family: Roboto, sans-serif;
@@ -111,6 +122,7 @@ a {
   transform: translateY(-50%);
 }
 
+
 .anim-typewriter {
   animation: typewriter 4s steps(44) 1s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
@@ -118,48 +130,63 @@ a {
 
 /* Projects */
 
+
+
 /* Projects General Styles */
 #projects {
-  border-top: white solid 5px;
   height: 100vh;
   overflow: hidden;
+  background-color: white;
 }
+
+
 .projects-container {
-  color: white;
+  color: black;
   text-align: center;
   position: relative;
 }
+
+
 .projects-container h1 {
   font-size: 50px;
   margin: 2% 0;
 }
 /* Projects Buttons */
 
+
 .projects-button {
-  background-color: transparent;
-  color: white;
+  background-color: black;
+  color: black;
   font-size: 1rem;
   opacity: 0.5;
   cursor: pointer;
+  border-radius: 10px;
+  width: 50px;
+  height: 60px;
+  padding: 5px 2px 5px 2px;
 }
+
 
 .projects-button :hover {
   transition: transform 0.1s ease-out;
-  transform: scale(1.1);
+
 }
+
 
 #prev-button {
   position: absolute;
-  top: 50%;
+  bottom: 5%;
   z-index: 10;
-  left: 3%;
+  left: 45%;
+  padding-right: 8px;
 }
 
 #next-button {
   position: absolute;
-  top: 50%;
+  bottom: 5%;
   z-index: 10;
-  left: 93%;
+  left: 53%;
+  margin-left: 50px;
 }
 
 /* Projects Carousel */
@@ -171,11 +198,12 @@ a {
   align-items: center;
 }
 
+
 .projects-project {
-  border: white solid 1px;
-  background: var(--main-gradient);
+  border: rgb(163, 159, 159) solid 1px;
+  background: #fbfbfd;
   min-width: 600px;
-  height: 60%;
+  height: 50%;
   margin: 0 5%;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -188,10 +216,9 @@ a {
 .projects-project-image {
   display: flex;
   text-align: center;
-  border-right: 5px solid whitesmoke;
   height: 90%;
-  margin-right: 10%;
-  padding-right: 10%;
+
+  
 }
 
 .projects-project-image img {
