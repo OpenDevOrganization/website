@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,7 @@
     <title>PyDev</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
+
 <body>
     <!-- Home -->
     <main id="main-container">
@@ -25,8 +26,97 @@
             <p class="line anim-typewriter">Pydev: Merry Christmas🎄</p>
         </section>
 
-        <section id="projects">
+        <!-- projects section -->
 
+        <section id="projects" class="projects-container">
+            <h1>PROJECTS</h1>
+            <div class="projects-list">
+                <div class="projects-project">
+                    <div class="projects-project-image">
+                        <img src={{ url_for('static', filename='./images/youtube_project.jpeg') }}
+                            alt="youtube_project">
+                    </div>
+                    <div class="projects-project-description">
+                        <div class="projects-project-title">
+                            <h3>Youtube Downloader</h3>
+                        </div class="projects-project-body">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas culpa dolores aut
+                            aspernatur
+                            necessitatibus asperiores illo soluta dolor quis, cum id, ab perferendis ipsa
+                            laboriosam
+                            tempora
+                            iusto consequuntur accusantium harum repudiandae. Illo mollitia veniam nihil
+                            repellendus
+                            velit.
+                            Voluptas, rem aliquid excepturi consectetur deleniti rerum impedit repellendus
+                            incidunt
+                            cum
+                        </p>
+                    </div>
+                </div>
+                <div class="projects-project">
+                    <div class="projects-project-image">
+                        <img src={{ url_for('static', filename='./images/youtube_project.jpeg') }}
+                            alt="youtube_project">
+                    </div>
+                    <div class="projects-project-description">
+                        <div class="projects-project-title">
+                            <h3>Youtube Downloader</h3>
+                        </div class="projects-project-body">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas culpa dolores aut
+                            aspernatur
+                            necessitatibus asperiores illo soluta dolor quis, cum id, ab perferendis ipsa
+                            laboriosam
+                            tempora
+                            iusto consequuntur accusantium harum repudiandae. Illo mollitia veniam nihil
+                            repellendus
+                            velit.
+                            Voluptas, rem aliquid excepturi consectetur deleniti rerum impedit repellendus
+                            incidunt
+                            cum
+                        </p>
+                    </div>
+                </div>
+                <div class="projects-project">
+                    <div class="projects-project-image">
+                        <img src={{ url_for('static', filename='./images/youtube_project.jpeg') }}
+                            alt="youtube_project">
+                    </div>
+                    <div class="projects-project-description">
+                        <div class="projects-project-title">
+                            <h3>Youtube Downloader</h3>
+                        </div class="projects-project-body">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas culpa dolores aut
+                            aspernatur
+                            necessitatibus asperiores illo soluta dolor quis, cum id, ab perferendis ipsa
+                            laboriosam
+                            tempora
+                            iusto consequuntur accusantium harum repudiandae. Illo mollitia veniam nihil
+                            repellendus
+                            velit.
+                            Voluptas, rem aliquid excepturi consectetur deleniti rerum impedit repellendus
+                            incidunt
+                            cum
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-button" id="prev-button">
+                <svg width="40" height="50" viewBox="0 0 51 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M41.2955 0L51 9.7525L19.4777 41.5L51 73.2475L41.2955 83L-9.42091e-08 41.5L41.2955 0Z"
+                        fill="white" />
+                </svg>
+            </div>
+            <div class="projects-button" id="next-button">
+                <svg width="40" height="50" viewBox="0 0 51 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.70445 0L0 9.7525L31.5223 41.5L0 73.2475L9.70445 83L51 41.5L9.70445 0Z" fill="white" />
+                </svg>
+            </div>
+
+            <Script src="{{url_for('static', filename='js/index.js')}}"></Script>
         </section>
 
 
@@ -36,6 +126,7 @@
 
 
 
-    
+
 </body>
+
 </html>
