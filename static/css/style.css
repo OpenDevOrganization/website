@@ -181,8 +181,7 @@ a {
   grid-template-columns: 1fr 2fr;
   align-items: center;
   border-radius: 50px;
-  column-gap: 5%;
-  padding: 0 5%;
+  padding: 0 2%;
   font-family: Roboto, sans-serif;
 }
 
@@ -191,6 +190,8 @@ a {
   text-align: center;
   border-right: 5px solid whitesmoke;
   height: 90%;
+  margin-right: 10%;
+  padding-right: 10%;
 }
 
 .projects-project-image img {
@@ -205,6 +206,7 @@ a {
   .projects-project {
     min-width: 80%;
     margin: 0 10%;
+    font-size: 12px;
   }
 }
 
@@ -229,7 +231,7 @@ a {
   }
   .projects-project-image {
     border-right: none;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid white;
     margin: 10% 0;
   }
 }
