@@ -184,7 +184,7 @@ a {
     width: 0;
   }
   to {
-    width: 24em;
+    width: 67%;
   }
 }
 
@@ -197,10 +197,14 @@ a {
   }
 }
 
-/* .anim-typewriter {
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-    blinkTextCursor 500ms steps(44) infinite normal;
-} */
+.anim-typewriter {
+  white-space: nowrap;
+  overflow: hidden;
+  letter-spacing: 0.1rem;
+  border-right: 0.1rem solid var(--white);
+  animation: typewriter 3s steps(19) 1s 1 normal both,
+    blinkTextCursor 0.75s steps(19) infinite normal;
+}
 
 /* Projects */
 
