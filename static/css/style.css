@@ -307,7 +307,7 @@ a {
 }
 
 .dev-card-background2 {
-  background: url("") no-repeat;
+  background: var(--blue);
   background-size: cover;
 }
 
