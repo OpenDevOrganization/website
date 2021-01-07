@@ -161,7 +161,7 @@ a {
   column-gap: 20px;
   margin: auto;
   align-content: center;
-  max-width: 1200px;
+  max-width: 1140px;
   justify-items: center;
   overflow: hidden;
   padding: 0 5%;
@@ -184,7 +184,7 @@ a {
     width: 0;
   }
   to {
-    width: 67%;
+    width: 69%;
   }
 }
 
@@ -221,26 +221,28 @@ a {
   color: var(--white);
   column-gap: 20px;
   margin: auto;
-  max-width: 1200px;
+  max-width: 1024px;
   justify-items: center;
   color: var(--black);
 }
 
-.projects-higlights svg {
+.projects-higlights img {
   display: block;
   margin: auto;
 }
 
 .projects-image {
-  height: 100%;
-  vertical-align: middle;
+  background: url(../images/website_Frame_projects.svg) no-repeat;
+  background-size: contain;
+  height: 45%;
+  background-position: center;
 }
-
-.projects-image svg {
+.projects-image img {
   padding-top: 20px;
   display: block;
   margin: auto;
-  width: 100%;
+  height: 100%;
+  width: auto;
 }
 
 .projects-card {
@@ -255,7 +257,7 @@ a {
 .projects-card-text {
   margin-bottom: 30px;
   padding: 10px 0;
-  height: 125px;
+  height: 90px;
 }
 
 /* Developers */
@@ -264,19 +266,21 @@ a {
   height: 100vh;
   overflow: hidden;
 }
+
 .dev-title {
   margin: 20px;
   text-align: center;
   color: var(--blue);
 }
+
 .developers-card-deck {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: auto;
-  max-width: 1200px;
+  max-width: 1024px;
   justify-items: center;
+  align-items: center;
   color: var(--black);
-  margin: 0% 5%;
+  margin: auto;
   column-gap: 20px;
 }
 
@@ -292,12 +296,14 @@ a {
   grid-template-columns: 1fr 5fr;
   column-gap: 20px;
   padding: 20px;
+  justify-items: center;
+  align-items: center;
 }
 
 .dev-card-image {
   border-radius: 100%;
-  width: 192px;
-  height: 192px;
+  width: 5rem;
+  height: 5rem;
 }
 
 .dev-card-background1 {
@@ -369,7 +375,7 @@ footer svg {
 
   /* Home */
 
-  .home-image svg {
+  .home-image img {
     width: 100%;
   }
 
@@ -391,7 +397,7 @@ footer svg {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
   /* General: */
   h1 {
     font-size: 2.6rem;
@@ -417,6 +423,10 @@ footer svg {
     line-height: 1.1;
   }
   /* Home */
+
+  .home-container {
+    grid-template-columns: 1fr;
+  }
 
   .home-image {
     display: none;
