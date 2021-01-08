@@ -326,7 +326,7 @@ a {
   display: flex;
 }
 
-.div-card-social svg {
+.div-card-social img {
   display: inline;
 }
 
@@ -343,7 +343,7 @@ footer {
   align-items: center;
 }
 
-footer svg {
+footer img {
   margin: 20px;
 }
 
