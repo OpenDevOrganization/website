@@ -262,11 +262,6 @@ a {
 
 /* Developers */
 
-.developers-container {
-  height: 100vh;
-  overflow: hidden;
-}
-
 .dev-title {
   margin: 20px;
   text-align: center;
