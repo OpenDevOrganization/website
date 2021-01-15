@@ -1,4 +1,4 @@
-# Website for PyDevs organization
+# Website for OpenDev organization
 
 ## Enable your local developement environment with the following commands:
 
