@@ -184,7 +184,7 @@ a {
     width: 0;
   }
   to {
-    width: 69%;
+    width: 10em;
   }
 }
 
@@ -342,7 +342,7 @@ footer img {
   margin: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   /* Generals */
   h1 {
     font-size: 3rem;
@@ -392,7 +392,7 @@ footer img {
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 540px) {
   /* General: */
   h1 {
     font-size: 2.6rem;
