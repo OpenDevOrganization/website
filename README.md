@@ -13,7 +13,7 @@
 
 ### How to join our organization
 
-Join our our [Discord server](https://discord.gg/S7KfgzeN) to start supporting and developing open source projects:
+Join our our [Discord server](https://discord.gg/3j8T33Mdzq) to start supporting and developing open source projects:
 
 ### Our Projects:
 
