@@ -91,14 +91,14 @@ a {
   font-size: 1.4rem;
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
-  padding: 5px 30px;
+  padding: 10px 25px;
   background-color: var(--white);
   border-radius: 10px;
 }
 
 .btn-sm:hover {
   background-color: var(--light-gray);
-  padding: 7px 32px;
+  padding: 12px 27px;
   transition-timing-function: ease-out;
   transition: 0.2s;
   border: 1px solid var(--white);
