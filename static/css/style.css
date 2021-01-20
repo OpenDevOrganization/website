@@ -340,6 +340,7 @@ a {
 
 .div-card-social {
   display: flex;
+  justify-content: center;
 }
 
 .div-card-social img {
