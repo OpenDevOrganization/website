@@ -12,11 +12,11 @@
     ),
     rgb(153, 204, 255);
   --blue: #4d4dff;
-  --black: #071013;
-  --white: #f3ffbd;
-  --ligh-blue: #bcd2ee;
+  --black: #292929;
+  --white: #ffffff;
+  --ligh-blue: #bbd3ff;
   --red: #ff1654;
-  --gray: #828282;
+  --gray: #7e7e7e;
   --light-gray: #e0e0e0;
 }
 * {
@@ -80,7 +80,7 @@ a {
 }
 
 .btn:hover {
-  background-color: var(--ligh-blue);
+  background-color: var(--light-gray);
   padding: 4.5% 8.5%;
   transition-timing-function: ease-out;
   transition: 0.2s;
@@ -97,7 +97,7 @@ a {
 }
 
 .btn-sm:hover {
-  background-color: var(--ligh-blue);
+  background-color: var(--light-gray);
   padding: 7px 32px;
   transition-timing-function: ease-out;
   transition: 0.2s;
@@ -108,7 +108,7 @@ a {
 /* NAVBAR */
 
 .navbar {
-  position: sticky;
+  position: static;
   display: flex;
   justify-content: space-between;
   top: 0;
