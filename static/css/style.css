@@ -50,6 +50,7 @@ h3 {
 }
 h4 {
   font-size: 2.4rem;
+  text-align: center;
 }
 h5 {
   font-size: 2rem;
@@ -61,6 +62,7 @@ p {
   font-family: "Sumana", serif;
   font-size: 1.4rem;
   line-height: 1.4;
+  text-align: center;
 }
 
 a {
@@ -270,7 +272,7 @@ a {
 
 .developers-card-deck {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   max-width: 1024px;
   justify-items: center;
   align-items: center;
@@ -281,13 +283,13 @@ a {
 
 .dev-card {
   border-radius: 10px;
-  padding: 20px;
-  margin: 20px 10px;
+  padding: 30px 70px;
+  margin: 10px 10px;
   box-shadow: 2px 2px var(--ligh-blue);
 }
 
 .dev-card-content {
-  display: grid;
+  display: inline-block;
   grid-template-columns: 1fr 5fr;
   column-gap: 20px;
   padding: 20px;
@@ -296,19 +298,38 @@ a {
 }
 
 .dev-card-image {
+  margin: 10px;
   border-radius: 100%;
   width: 5rem;
   height: 5rem;
 }
 
-.dev-card-background1 {
-  background: url("https://hannwebsites.com/wp-content/uploads/2020/11/cropped-site_ico2.png")
+.dev-card-backgroundhann {
+  background: url("https://cdn.discordapp.com/avatars/367117571893231618/acb7c6d081bd7a82ed89192d6408cb33.png?size=128")
     no-repeat;
   background-size: cover;
 }
 
-.dev-card-background2 {
-  background: var(--blue);
+.dev-card-backgroundmanas {
+  background: url("https://cdn.discordapp.com/attachments/800789044727906355/801112743842283580/Screenshot_2021-01-14-09-10-40-86.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+.dev-card-backgroundtheo {
+  background: url("https://cdn.discordapp.com/avatars/698080708677206067/57d33ae9157e4a93023bf69ffc83eca2.png?size=128")
+    no-repeat;
+  background-size: cover;
+}
+.dev-card-backgroundsyf {
+  background: url("https://cdn.discordapp.com/avatars/688275513961087030/2d17dd9fa39d056457a53e94096c170b.png?size=128")
+    no-repeat;
+  background-size: cover;
+}
+
+.dev-card-backgroundzhenyu {
+  background: url("https://cdn.discordapp.com/avatars/744605500959621280/0b3b5eda9c451c080a264e54b8a19fd2.png?size=128")
+    no-repeat;
   background-size: cover;
 }
 
