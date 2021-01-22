@@ -12,11 +12,11 @@
     ),
     rgb(153, 204, 255);
   --blue: #4d4dff;
-  --black: #071013;
-  --white: #f3ffbd;
-  --ligh-blue: #bcd2ee;
+  --black: #292929;
+  --white: #ffffff;
+  --ligh-blue: #bbd3ff;
   --red: #ff1654;
-  --gray: #828282;
+  --gray: #7e7e7e;
   --light-gray: #e0e0e0;
 }
 * {
@@ -50,6 +50,7 @@ h3 {
 }
 h4 {
   font-size: 2.4rem;
+  text-align: center;
 }
 h5 {
   font-size: 2rem;
@@ -61,6 +62,7 @@ p {
   font-family: "Sumana", serif;
   font-size: 1.4rem;
   line-height: 1.4;
+  text-align: center;
 }
 
 a {
@@ -78,7 +80,7 @@ a {
 }
 
 .btn:hover {
-  background-color: var(--ligh-blue);
+  background-color: var(--light-gray);
   padding: 4.5% 8.5%;
   transition-timing-function: ease-out;
   transition: 0.2s;
@@ -89,14 +91,14 @@ a {
   font-size: 1.4rem;
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
-  padding: 5px 30px;
+  padding: 10px 25px;
   background-color: var(--white);
   border-radius: 10px;
 }
 
 .btn-sm:hover {
-  background-color: var(--ligh-blue);
-  padding: 7px 32px;
+  background-color: var(--light-gray);
+  padding: 12px 27px;
   transition-timing-function: ease-out;
   transition: 0.2s;
   border: 1px solid var(--white);
@@ -106,7 +108,7 @@ a {
 /* NAVBAR */
 
 .navbar {
-  position: sticky;
+  position: static;
   display: flex;
   justify-content: space-between;
   top: 0;
@@ -270,45 +272,64 @@ a {
 
 .developers-card-deck {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   max-width: 1024px;
   justify-items: center;
   align-items: center;
   color: var(--black);
   margin: auto;
-  column-gap: 20px;
+  column-gap: 10px;
 }
 
 .dev-card {
   border-radius: 10px;
-  padding: 20px;
-  margin: 20px 10px;
+  padding: 10px 50px;
+  margin: 10px -100px;
   box-shadow: 2px 2px var(--ligh-blue);
 }
 
 .dev-card-content {
-  display: grid;
+  display: inline-block;
   grid-template-columns: 1fr 5fr;
-  column-gap: 20px;
+  column-gap: 2px;
   padding: 20px;
   justify-items: center;
   align-items: center;
 }
 
 .dev-card-image {
+  margin: 10px 30px;
   border-radius: 100%;
   width: 5rem;
   height: 5rem;
 }
 
-.dev-card-background1 {
-  background: url("https://hannwebsites.com/wp-content/uploads/2020/11/cropped-site_ico2.png")
+.dev-card-backgroundhann {
+  background: url("https://cdn.discordapp.com/avatars/367117571893231618/acb7c6d081bd7a82ed89192d6408cb33.png?size=128")
     no-repeat;
   background-size: cover;
 }
 
-.dev-card-background2 {
-  background: var(--blue);
+.dev-card-backgroundmanas {
+  background: url("https://cdn.discordapp.com/attachments/800789044727906355/801112743842283580/Screenshot_2021-01-14-09-10-40-86.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+.dev-card-backgroundtheo {
+  background: url("https://cdn.discordapp.com/avatars/698080708677206067/57d33ae9157e4a93023bf69ffc83eca2.png?size=128")
+    no-repeat;
+  background-size: cover;
+}
+.dev-card-backgroundsyf {
+  background: url("https://cdn.discordapp.com/avatars/688275513961087030/2d17dd9fa39d056457a53e94096c170b.png?size=128")
+    no-repeat;
+  background-size: cover;
+}
+
+.dev-card-backgroundzhenyu {
+  background: url("https://cdn.discordapp.com/avatars/744605500959621280/0b3b5eda9c451c080a264e54b8a19fd2.png?size=128")
+    no-repeat;
   background-size: cover;
 }
 
@@ -319,6 +340,7 @@ a {
 
 .div-card-social {
   display: flex;
+  justify-content: center;
 }
 
 .div-card-social img {
