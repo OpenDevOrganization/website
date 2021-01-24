@@ -108,7 +108,9 @@ a {
 /* NAVBAR */
 
 .navbar {
-  position: static;
+  position: fixed;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--blue);
   display: flex;
   justify-content: space-between;
   top: 0;
@@ -156,7 +158,7 @@ a {
   background: var(--main-gradient);
 }
 .home-container {
-  height: 90vh;
+  height: 100vh;
   color: var(--white);
   display: grid;
   grid-template-columns: 1fr 1fr;
