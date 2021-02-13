@@ -307,30 +307,30 @@ a {
 }
 
 .dev-card-backgroundhann {
-  background: url("https://cdn.discordapp.com/avatars/367117571893231618/acb7c6d081bd7a82ed89192d6408cb33.png?size=128")
+  background: url("../images/hann_img.png")
     no-repeat;
   background-size: cover;
 }
 
 .dev-card-backgroundmanas {
-  background: url("https://cdn.discordapp.com/attachments/800789044727906355/801112743842283580/Screenshot_2021-01-14-09-10-40-86.jpg")
+  background: url("../images/manas_img.png")
     no-repeat;
   background-size: cover;
 }
 
 .dev-card-backgroundtheo {
-  background: url("https://cdn.discordapp.com/avatars/698080708677206067/57d33ae9157e4a93023bf69ffc83eca2.png?size=128")
+  background: url("../images/theo_img.png")
     no-repeat;
   background-size: cover;
 }
 .dev-card-backgroundsyf {
-  background: url("https://cdn.discordapp.com/avatars/688275513961087030/2d17dd9fa39d056457a53e94096c170b.png?size=128")
+  background: url("../images/syf_img.png")
     no-repeat;
   background-size: cover;
 }
 
 .dev-card-backgroundzhenyu {
-  background: url("https://cdn.discordapp.com/avatars/744605500959621280/0b3b5eda9c451c080a264e54b8a19fd2.png?size=128")
+  background: url("../images/zhenyu_img.png")
     no-repeat;
   background-size: cover;
 }
